@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+body{
+    background: linear-gradient(245.59deg, #815ce7 0%, #4f2592 28.53%, #4a3791 75.52%);     
+}
+
 header{
     position: fixed;
     right: 0;
@@ -24,7 +28,7 @@ header{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
     text-shadow: #323233 5px 4px;
@@ -59,7 +63,6 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #815ce7 0%, #4f2592 28.53%, #4a3791 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,8 +114,8 @@ section {
     color: white;
     background: #424242;
     border: 2px solid transparent;
-    padding: 12px 30px;
-    line-height: 1.4;
+    padding: 10px 60px;
+    line-height: 1.8;
     font-size: 14px;
     font-weight: 500;
     border-radius: 20px;
@@ -269,4 +272,88 @@ section {
         width: 100%;
         height: auto;
     }
+}
+
+.about{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10rem;
+}
+
+.about-text h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #323233 8px 9px;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.about-img img{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right: 60%;
+    left: 60%;
+}
+
+.activities-text h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #323233 8px 9px;
+    margin-bottom: 40px;
+}
+
+.activities-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.act-img img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    margin-top: -290px;
+}
+
+.contacts h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif; 
+    color: white;
+    text-shadow: #323233 8px 9px;
+}
+
+.footer-contacts{
+    position: absolute;
+    margin-left: 375px;
+    margin-top: 20px;
+}
+
+.footer-contacts i{
+     width: 100%;
+    padding: 30px;
 }
