@@ -374,7 +374,7 @@ section {
     padding: 30px; 
     font-size: 25px;
     color: white;
-    transition: all .50s ease;
+    transition: all .50s ease;  
 }
 
 .footer-contacts i:hover{
