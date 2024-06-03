@@ -212,6 +212,7 @@ section {
     .hero-text h5{
         margin-bottom: 25px;
     }
+
 }
 @media (max-width: 1195px){
     section{
@@ -239,6 +240,7 @@ section {
     .scroll-down{
         display: none;
     }
+
 }
 @media (max-width: 990px){
     #menu-icon{
@@ -265,12 +267,22 @@ section {
     .navlist.open{
         right: 0;
     }
+
+
 }
 
 @media (max-width: 680px){
     .hero-img img{
         width: 100%;
         height: auto;
+    }
+
+    .footer-contacts{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+        margin-top: 20px;
+        height: 3px;
     }
 }
 
@@ -348,12 +360,22 @@ section {
 }
 
 .footer-contacts{
-    position: absolute;
-    margin-left: 375px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
     margin-top: 20px;
+    height: 2px;
 }
 
 .footer-contacts i{
-     width: 100%;
-    padding: 30px;
+    display: flex;
+    padding: 30px; 
+    font-size: 25px;
+    color: white;
+    transition: all .50s ease;
+}
+
+.footer-contacts i:hover{
+    color:  #686868;
+    transform: translateY(-5px);
 }
