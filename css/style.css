@@ -124,7 +124,6 @@ section {
 }
 
 .hero-text a:hover {
-    background: transparent;
     border: 1px solid white;
     transform: translateX(8px);
 }
