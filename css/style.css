@@ -25,6 +25,14 @@ header{
     justify-content: space-between;
     padding: 33px 9%;
     background: transparent;
+    transition: 0.9s ease;
+}
+
+header.sticky {
+    height: calc(2.3rem + 1rem);
+    background: rgba(7, 7, 7, 0.1);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -75,9 +83,9 @@ section {
 }
 
 .hero-text h5 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
 
 }
@@ -94,7 +102,9 @@ section {
 .hero-text h4 {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
+    font-style: oblique;
+    color: rgb(233, 179, 30);    
 }
 
 .hero-text p {
@@ -250,7 +260,7 @@ section {
         top: 90%;
         right: -100%;
         width: 200px;
-        height: 30vh;
+        height: 25vh;
         background: #323233;
         border-radius: 40px;
         display: flex;
