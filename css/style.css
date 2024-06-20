@@ -41,7 +41,14 @@ header.sticky {
     font-style: oblique;
     color: white;
     text-shadow: #323233 5px 4px;
+    transition: all .55s ease;
 }
+
+.logo:hover {
+    transform: translateX(10px);
+    transition: all .55s ease;
+}
+
 
 .navlist{
     display: flex;
