@@ -24,15 +24,15 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 33px 9%;
-    background: transparent;
-    transition: 0.9s ease;
+    transition:  0.9s ease;
 }
 
 header.sticky {
     height: calc(2.3rem + 1rem);
-    background: rgba(7, 7, 7, 0.1);
+    background: rgba(0, 0, 0, 0.692);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.9s ease;
 }
 
 .logo{
@@ -173,7 +173,7 @@ section {
 }
 
 .icons i:hover {
-    color: #424242;
+    color: #4242427c;
     transform: translateY(-5px);
 }
 
@@ -312,7 +312,7 @@ section {
     }
 
     .act-img img{
-        width: 50%;
+        width: 200px;
         height: auto;
         padding-top: 200px;
         align-items: center;
@@ -351,7 +351,7 @@ section {
     color: white;
     font-size: 15px;
     line-height: 1.8;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .about-img img{
@@ -429,4 +429,16 @@ section {
 
 .footer-contacts .ri-github-fill:hover {
     color: #141414;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #540aa8;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #6007c5;
+}
+::-webkit-scrollbar-thumb {
+    background: #7a7979;
+    border-radius: 5px;
 }
