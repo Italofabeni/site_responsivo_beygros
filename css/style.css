@@ -11,7 +11,8 @@
 }
 
 body{
-    background: linear-gradient(245.59deg, #815ce7 0%, #4f2592 28.53%, #674ec2 75.52%);     
+    background: linear-gradient(245.59deg, #815ce7 0%, #4f2592 28.53%, #674ec2 75.52%);
+    overflow-x: hidden;     
 }
 
 header{
@@ -312,17 +313,16 @@ section {
     }
 
     .act-img img{
-        width: 200px;
+        width: 100%;
         height: auto;
-        padding-top: 200px;
-        align-items: center;
-        justify-content: center;
+        padding-right: 40px;
     }
 
     .about-img img{
-        width: 50%;
-        height: auto;
-    }
+        width: 100%;
+        height: 200px;
+        padding-right: 40px;
+    }    
 
 }
 
@@ -361,6 +361,17 @@ section {
     top: 30%;
     right: 60%;
     left: 60%;
+}
+
+.activities {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10rem;
 }
 
 .activities-text h3{
