@@ -173,8 +173,18 @@ section {
     transition: all .50s ease;
 }
 
-.icons i:hover {
-    color: #4a036b7c;
+.icons #insta:hover {
+    color: #f107e6;
+    transform: translateY(-5px);
+}
+
+.icons #youtube:hover {
+    color: #f72020;
+    transform: translateY(-5px);
+}
+
+.icons #git:hover {
+    color: #141414;
     transform: translateY(-5px);
 }
 
