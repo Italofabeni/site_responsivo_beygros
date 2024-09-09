@@ -12,14 +12,18 @@
 
 body{
     background: linear-gradient(245.59deg, #815ce7 0%, #4f2592 28.53%, #674ec2 75.52%);
-    overflow-x: hidden;     
+     
+}
+
+html{
+    overflow-x: hidden;    
 }
 
 header{
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
     width: 100%;
     display: flex;
     align-items: center;
@@ -72,7 +76,7 @@ header.sticky {
 #menu-icon{
     color: white;
     font-size: 35px;
-    z-index: 10001;
+    z-index: 500;
     cursor: pointer;
     display: none;
 }
@@ -208,6 +212,73 @@ section {
     transform: translateY(-5px);
 }
 
+.sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-col-content h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #323233 8px 9px;
+}
+
+.about-col-content p {
+    padding: 0;
+    margin: 20px auto;
+    width: 500px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.about-img img{
+    max-width: 300px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.atividades {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.actvit-col-content h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #323233 8px 9px;
+}
+
+.actvit-col-content p {
+    padding: 0;
+    margin: 20px auto;
+    width: 500px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.act-img img {
+    max-width: 300px;
+    margin: 10px;
+}
+
 @media (max-width: 1535px){
     header{
         padding: 15px 3%;
@@ -282,6 +353,7 @@ section {
         right: -50%;
         width: 200px;
         height: 25vh;
+        z-index: 100;
         background: #323233;
         border-radius: 40px;
         display: flex;
@@ -305,6 +377,9 @@ section {
         height: auto;   
     }
 
+    .logo{
+    font-size: 15px;
+    }
 
 }
 
@@ -322,93 +397,9 @@ section {
         height: 3px;
     }
 
-    .act-img img{
-        width: 100%;
-        height: auto;
-        padding-right: 40px;
-    }
-
-    .about-img img{
-        width: 100%;
-        height: 200px;
-        padding-right: 40px;
-    }    
 
 }
 
-.about{
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 10rem;
-}
-
-.about-text h2{
-    font-size: 30px;
-    font-weight: 600;
-    font-family: "Poetsen One", sans-serif;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: #323233 8px 9px;
-    margin-bottom: 20px;
-}
-
-.about-text p{
-    color: white;
-    font-size: 15px;
-    line-height: 1.8;
-    margin-bottom: 20px;
-}
-
-.about-img img{
-    width: 350px;
-    height: auto;
-    position: absolute;
-    top: 30%;
-    right: 60%;
-    left: 60%;
-}
-
-.activities {
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 10rem;
-}
-
-.activities-text h3{
-    font-size: 30px;
-    font-weight: 600;
-    font-family: "Poetsen One", sans-serif;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: #323233 8px 9px;
-    margin-bottom: 50px;
-}
-
-.activities-text p{
-    color: white;
-    font-size: 15px;
-    line-height: 1.8;
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.act-img img {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    left: 60%;
-    margin-top: -250px;
-}
 
 .contacts h4{
     text-align: center;
